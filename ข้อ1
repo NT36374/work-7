@@ -1,0 +1,9 @@
+salary = int(input())
+if salary < 15000:
+    print("ไม่สามารถทำบัตรเครคิตได้")
+else : salary < 70000
+    print("Silver")
+else : salary <100000
+    print("Gold")
+else : salary >100000:
+    print("Platinum")
